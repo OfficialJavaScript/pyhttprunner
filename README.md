@@ -32,11 +32,13 @@ If you have done all the steps correctly, you should be able to run ```python3 m
 You can then access the site from:
 
 ```http://localhost/```
+
 ```localhost```
+
 ```127.0.0.1```
 
 The port number by default is 80, if you wish you change this on line 27:
 
-app.run('0.0.0.0', port=80)
+```app.run('0.0.0.0', port=80)```
 
-Change the line 'port=80' to whatever port you want, 'port=88'
+Change the line ```port=80``` to whatever port you want, ```port=8080```
